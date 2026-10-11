@@ -1,0 +1,22 @@
+# Local tools and IDE state
+.idea/
+.vscode/
+.opencode/
+.eclipse/
+*.iml
+
+# Build and runtime output
+.gradle/
+build/
+bin/
+out/
+run/
+run-shared/
+logs/
+
+# Local reference checkouts, dependencies and decompiled sources
+/refs/
+/libs/
+/libs-backup/
+/temp_decompile/
+/net/
