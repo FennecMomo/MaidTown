@@ -72,7 +72,7 @@ Q39.2 已确认居民记录独立于实体持续存在，实体负责现场表�
 
 ## FennecLib 与技术参考
 
-现有加权行为继承 TLM Behavior，UI 提供弹窗、容器与列表。脱离 Behavior 的独立算法核心仍列 I10；签名查 [FennecLib API](../../../fenneclib/docs/API.md)。
+2026-10-11 决定：本次重构剔除 TLM 依赖（与目标设计冲突太多），因此“加权行为继承 TLM Behavior”不再是新实现的路径，加权行为与 UI 模板改由 FennecLib 自身承载并独立于 TLM；Q39.3.f 的“实体与模拟器谁决策”随之消解——决策与进度归模拟器，实体只做表现与执行细节。脱离 Behavior 的独立算法核心仍列 I10；签名查 [FennecLib API](../../../fenneclib/docs/API.md)。
 
 开发规范、提交规范、测试协作及 NeoForge／TLM 参考保留原目录，见 [总目录](../../INDEX.md)。参考代码不是产品设计。API 文档只描述公开契约，内部实现证据放冲突表，不向 API 文档塞设计草案。
 
